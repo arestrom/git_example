@@ -29,3 +29,5 @@ file.exists("C:\\Users\\stromas\\.ssh\\id_rsa.pub")
 # git branch -D new-feature
 # Deleted branch new-feature (was 05d3cc5)
 
+# Go to GitHub repo. Will see new-feature and green button to "Compare & pull request"
+
