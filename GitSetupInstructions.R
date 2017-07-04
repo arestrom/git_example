@@ -30,4 +30,6 @@ file.exists("C:\\Users\\stromas\\.ssh\\id_rsa.pub")
 # Deleted branch new-feature (was 05d3cc5)
 
 # Go to GitHub repo. Will see new-feature and green button to "Compare & pull request"
+# Follow instructions. Then need to pull changes to local. Werked well. 
+# Suspect problem at NRB was with H drive default
 
