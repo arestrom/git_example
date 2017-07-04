@@ -1,4 +1,9 @@
 # See: http://eriqande.github.io/rep-res-web/lectures/git-branch-and-merge.html
+# For some good additional info
+
+# Check if ssh key exists:
+file.exists("C:\\Users\\stromas\\.ssh\\id_rsa.pub")
+# [1] TRUE
 
 # Create and switch to a new branch
 # git checkout -b new-branch
