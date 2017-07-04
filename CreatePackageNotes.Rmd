@@ -1,5 +1,5 @@
 ---
-title: "How to create a new package project"
+title: "How to create a new package"
 author: "Are Strom"
 date: "`r Sys.Date()`"
 output:
