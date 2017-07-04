@@ -6,8 +6,8 @@ file.exists("C:\\Users\\stromas\\.ssh\\id_rsa.pub")
 # [1] TRUE
 
 # Create and switch to a new branch
-# git checkout -b new-branch
-# Switched to a new branch "new-branch"
+# git checkout -b new-feature
+# Switched to a new branch "new-feature"
 
 # Check status of branch
 # git remote -v
