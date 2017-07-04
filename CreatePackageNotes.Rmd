@@ -19,13 +19,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Edit the DESCRIPTION file as needed. Just fill in suggested language. First version should be set to 0.1.9000. Add LICENSE file if MIT + file LICENSE.
 
-* Delete the NAMESPACE file, the example R script inside the **R** folder, and the example markdown document inside the **man** folder. The roxygen2 tags in the R functions you create will auto-generate the NAMESPACE and markdown documents later. 
+* Delete the NAMESPACE file, the example R script inside the *R* folder, and the example markdown document inside the *man* folder. The roxygen2 tags in the R functions you create will auto-generate the NAMESPACE and markdown documents later. 
 
-* In upper-left corner select the *Git* tab. Click the *Staged* checkboxes for all files listed. Then click on *Commit* and include a short commit message. Typically *Initial commit* the first time. Make sure you commit something...anything. Otherwise you will get an error in step 6.
+* In upper-left corner select the *Git* tab. Click the *Staged* checkboxes for all files listed. Then click on *Commit* and include a short commit message. Typically *Initial commit* the first time. Make sure you commit something...anything. Otherwise you will get an error when connecting your local repo to the GitHub repo.
 
 * In your github account click on *New Repository*. Enter the repository name. Use the same name as you gave the package in RStudio. Enter a short description. Do not add a readme, gitignore, or license. 
 
-* Connect your RStudio package project to the new GitHub repository you created in step 4. In the GitHub page that pops up after you created the new repo see the option that says *…or push an existing repository from the command line*. Click to the right of this option and copy the two lines of command line text to your clipboard. 
+* Connect your RStudio package project to the new GitHub repository you created above. In the GitHub page that pops up after you created the new repo see the option that says *…or push an existing repository from the command line*. Click to the right of this option and copy the two lines of command line text to your clipboard. 
 
 ```
 …or push an existing repository from the command line
@@ -34,7 +34,7 @@ git remote add origin git@github.com:arestrom/repg.git
 git push -u origin master
 ```
 
-* In RStudio look in the upper right corner for the gear icon in the *Git* tab. Click on *Shell* to open a command line window for Git. Paste the contents of your clipboard (copied in step 5) to the Git command window. Click enter. You should get a message similar to: 
+* In RStudio look in the upper right corner for the gear icon in the *Git* tab. Click on *Shell* to open a command line window for Git. Paste the contents of your clipboard (copied above) to the Git command window. Click enter. You should get a message similar to: 
 
 ```
 Counting objects: 4, done.
@@ -49,7 +49,7 @@ Branch master set up to track remote branch master from origin.
 ```
 * In your GitHub repository, refresh the page to verify your committed files were transferred properly from RStudio to GitHub. 
 
-* Create a new branch for development of R scripts in new package
+* Create a new git branch for development of the functions you intend to include in your new package
 
 ```
 # Create and switch to a new branch
