@@ -1,4 +1,4 @@
-How to create a new package project
+How to create a new package
 ================
 Are Strom
 2017-07-04
