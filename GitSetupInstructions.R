@@ -32,4 +32,6 @@ file.exists("C:\\Users\\stromas\\.ssh\\id_rsa.pub")
 # Go to GitHub repo. Will see new-feature and green button to "Compare & pull request"
 # Follow instructions. Then need to pull changes to local. Werked well. 
 # Suspect problem at NRB was with H drive default
+# Can delete branch on GitHub side using icon if desired
+# Will get message that "Pull request was successfully merged and closed". 
 
