@@ -1,7 +1,7 @@
 How to create a new package
 ================
 Are Strom
-2017-07-04
+2017-07-05
 
 Using RStudio GUI
 -----------------
@@ -71,7 +71,7 @@ Using RStudio GUI
 
 -   Open the web-page for the GitHub repo. You will see the *new-feature* branch and green button to *Compare & pull request*. Follow instructions. You will get a message that says *Pull request was successfully merged and closed*. After pull is complete, delete branch on the GitHub side using green icon.
 
--   Go back to RStudio local repository and *Pull* changes to local.
+-   Go back to RStudio local repository, swith to the master branch, and *Pull* changes to local.
 
 -   After editing all your files go to the *Build* tab in the upper right pane in RStudio. Click on the *Check* button to see if there are any errors. After all errors are fixed, go to the *More* tab under *Build* and click on *Clean and Rebuild*. Then build the source and binary packages. These will be written to the parent directory of your package folder.
 
