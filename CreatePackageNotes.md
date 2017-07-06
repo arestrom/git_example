@@ -77,4 +77,4 @@ Using RStudio GUI
 
 -   Back in your package repository on GitHub, click on the *Releases* link. Create a new release, give it a description and any additional notes, then use the link at the bottom to upload the source and binary packages to your repository.
 
--   Back in RStudio, test that the package can be installed using devtools::install\_github(). First close out of the project for your package, then run the install instructions that you have clevery remembered to include in the readme file.
+-   Back in RStudio, test that the package can be installed using devtools::install\_github(). First close out of the project for your package, then run the install instructions that you have cleverly remembered to include in the readme file.
